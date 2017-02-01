@@ -17,7 +17,7 @@
 									sessionToken: token
 								})
 						}else {
-							res.status(500).send({ error: "failed to authenticat"});
+							res.status(500).send({ error: "failed to authenticate"});
 						}
 					});
 				} else{
