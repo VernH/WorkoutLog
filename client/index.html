@@ -28,6 +28,7 @@
 				<h2>Workout Log!</h2>
 				<div id="forLogin">
 				<button data-toggle="modal" data-target="#login-modal" class="btn btn-primary">Login</button>
+				<button data-toggle="modal" data-target="#signup-modal" class="btn btn-primary">Sign Up</button>
 				</div>
 				<div id="forLogout" style="display:none;">
 				<button class="btn btn-primary">Logout</button>
@@ -58,7 +59,7 @@
 </div>
 
 <!--sign up-->
-<div class="modal fade" id="signup-moda" role="dialog">
+<div class="modal fade" id="signup-modal" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -74,18 +75,19 @@
 			</div>
 			<div class="modal-footer">
 			<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				<button id="signup" type="button" class="btn btn-primary">Signup</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-	<script src="app.js"></script>
+	
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
 	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="./app.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed-->
 	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./app.js"></script>
 	<script src="./user/auth.js"></script>
 
 
