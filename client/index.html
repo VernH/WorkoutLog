@@ -34,6 +34,18 @@
 				<button class="btn btn-primary">Logout</button>
 				</div>
 			</div>
+			<!-- DEFINE -->
+			<div class="tab-pane" id="define">
+				<h2>Define</h2>
+					<label for="def-description">Description</label>
+					<textarea class="form-control" id="def-description" rows="3"></textarea>
+					<label for="def-logtype">Log work by</label>
+					<select class="form-control" id="def-type">
+						<option>Time</option>
+						<option>Weight</option>
+						<option>Reps</option>
+					</select>
+					<button id="def-save" class="btn btn-primary">Save</button>
 		</div>		
 	</div>
 	<div class="modal fade" id="login-modal" role="dialog">
@@ -89,7 +101,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed-->
 	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="./user/auth.js"></script>
-
+	<script src="./workouts/define.js"></script>
 
 </body>
 
