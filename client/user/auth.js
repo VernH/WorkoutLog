@@ -13,8 +13,8 @@ $(function() {
             signup.done(function(data) {
                if (data.sessionToken) {
                   WorkoutLog.setAuthHeader(data.sessionToken);
-                  console.log("You made it!");
-                  console.log(data.sessionToken);
+                  WorkoutLog.definition.fetchAll();
+                  WorkoutLog.log.fetchAll();
                   
                }
                $("#signup-modal").modal("hide");
