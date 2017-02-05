@@ -108,5 +108,5 @@ router.delete('/', function(req, res) {
 			}
 		);
 });
-//commit
+
 module.exports = router;
